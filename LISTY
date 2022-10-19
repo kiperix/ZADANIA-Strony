@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisy w HTML</title>
+</head>
+<body>
+ <!----   <h2> Lista punktowa</h2>
+    <ul type="square">
+
+<li>Item 1</li>
+<li>Item 2</li> 
+<li>Item 3</li>
+
+</ul>
+<h2> Lista numeryczna</h2>
+<ol>
+
+<li>Lista  1</li>
+<li>Lista  2</li>
+<li>Lista  3</li> 
+<li value="8">Lista  4</li> 
+<li>Lista  5</li> 
+<li>Lista  6</li> 
+<li>Lista  7</li> 
+<li>Lista  8</li> 
+<li>Lista  9</li> 
+
+</ol!-->
+
+<h2>Lista zagnieżdzona</h2>
+<ol>
+<li>Item1</li>
+    <ul>
+
+<li>ABC</li>
+<ol type="I">  
+
+<li>XYZ</li>
+<li>XYZ</li>
+<li>XYZ</li>
+<li>XYZ</li>
+
+</ol>
+    </ul>
+</ol>
+</body>
+</html>
