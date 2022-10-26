@@ -1,0 +1,79 @@
+<!----
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabele</title>
+</head>
+<body>
+    <h3>SCALANIE KOMOREK</h3>
+    <table border="5" style="text-align: center;">
+      <tr>
+         <td>Komórka 1</td>
+         <td>Komórka 2</td>
+         <td>Komórka 3</td>
+      </tr>  
+      <tr>
+         <td>Komórka 4</td>
+         <td colspan="2">Komórka 5</td>
+      </tr> 
+      <tr>
+         <td colspan="3">Komórka 6</td>
+      </tr> 
+    </table>
+    <h3>SCALANIE KOMOREK W PIONIE</h3>
+    <table border="5">
+         <tr>
+             <td>Komorka 1</td>
+             <td>Komorka 4</td>
+             <td rowspan="3">Komorka 6</td>
+         </tr>
+         <tr>
+             <td>Komorka 2</td>
+             <td rowspan="2">Komorka 5</td>
+         </tr>
+         <tr>
+             <td>Komorka 3</td> 
+         </tr>
+    </table>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 1</title>
+</head>
+<body>
+    <th>Tabela 1</th>
+    <table border="1" style="text-align: center;">
+        
+         <tr> 
+             <td colspan="4">Komórka 1</td>
+         </tr>   
+         <tr> 
+             <td colspan="2">Komórka 4</td>
+             <td colspan="2">Komórka 4</td>
+             
+         </tr>   
+         <tr> 
+             <td colspan="1">Komórka 7</td>
+             <td colspan="2">Komórka 7</td>
+             <td colspan="1">Komórka 7</td>
+
+           
+             
+         </tr>   
+
+
+
+
+
+
+    </table>
+</body>
+</html>
