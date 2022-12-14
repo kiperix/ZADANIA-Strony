@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie na Ocene</title>
+</head>
+<body>
+     <ol>
+
+         <li>Pozycja 1: </li>
+            <ul type = "disc">
+                <li>Element 1</li>
+                <li>Element 2</li>
+            </ul>
+         <li>Kolejna pozycja</li>
+            <ul type ="square">
+                <li>Element A</li>
+                <ol type="I">
+                    <li>Element Aa</li>
+                    <li>Element Ab</li>
+                </ol>
+
+            </ul>
+    </ol>
+
+    <table border="1" style="text-align: center;">
+        <tr>
+            <td rowspan="2" colspan="2">Komorka 1</td>
+            <td>Komorka 4</td>
+            <td>Komorka 5</td>
+            
+        </tr>
+        <tr>
+            <td>Komorka 6</td>
+            <td>Komorka 7</td>
+            
+        </tr>
+        <tr>
+            <td>Komorka 2</td>
+            <td>Komorka 3</td>
+            <td colspan="2" rowspan="2">Komorka 8</td>
+           
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4">Komorka 9</td>
+        </tr>
+        <tr>
+            <td>Komorka 10</td>
+            <td>Komorka 11</td>
+            
+        </tr>
+        <tr>
+            <td>Komorka 12</td>
+            <td>Komorka 13</td>
+            
+        </tr>
+        
+        
+        <table>
+
+
+
+
+
+
+    
+</body>
+</html>
