@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omijam driftem biede</title>
+</head>
+<body>
+
+<form>
+
+<h1>Dane Czlonka OFE</h1>
+<br>Nazwisko
+<input type="text" name="nazwisko">
+<br>Imiona
+<input type="text" name="imie"><input type="text" name="imie"><input type="text" name="imie">
+<br>Data urodz.
+<input type="text" name="dzien" size="2" maxlength="2">/<input type="text" name="miesiac" size="2" maxlength="2">/<input type="rok" name="data" size="2" maxlength="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wybierz Plec<select name="plec">
+
+<option>Mezczyzna</option>
+<option>Kobieta</option>
+<option>Helikopter Bojowy</option>
+</select>
+<br>PESEL*
+<input type="text" name="pesel">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NIP <input type="text" name="nip" size="3">-<input type="text" name="nip" size="3">-<input type="text" name="nip" size="3">-<input type="text" name="nip" size="3">
+<br>Dokument
+<select>
+<option>DOWOD</option>
+<option>karta rowerowa</option>
+</select>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Seria dok.*<input type="text" name="seria">
+<br>
+*-pola wymagane
+<br>Stan Cywilny
+<select>
+<option>Zonaty</option>
+<option>Wolny</option>
+</select>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Kraj
+<select>
+<option>Polska</option>
+<option>USA</option>
+</select>
+
+</form>
+</body>
+</html>
