@@ -1,0 +1,139 @@
+
+body{
+    margin: 0;
+    
+}
+.pageOne{
+    color: white;
+    background-color: black;
+    position: relative;
+    height: 100vh;
+}
+
+
+span{
+    color: red;
+    
+    
+}
+header{
+    color: white;
+    font-weight:bold;
+    font-size:xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.nawigacja{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+ul{
+    display: flex;
+   list-style: none;
+   align-items: flex-end;
+
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+ul li{
+    margin-left: 20px;
+    
+}
+#color{
+    background-color:darkorchid;
+    padding: 10px;
+    border-radius: 5%;
+}
+.Home_sekcja1{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    
+   
+
+}
+.Home_sekcja1 .zdjecie_sekcja1{
+    width: 40%;
+    height: 40%;
+    padding: 10%;
+  
+    
+}
+
+.zdjecie_sekcja1{
+    display: flex;
+    justify-content: center;
+}
+
+.napislewy h1{
+    font-size:80px;
+}
+.przyciski_sekcja1 button{
+    background-color: red;
+    padding: 8px;
+    border: 0px;
+    font-family: Verdana;
+    border-radius:10%;
+    
+}
+button:hover{
+    background-color: aqua;
+    color: red;
+    font-weight: bold;
+}
+.uklad_sekcja2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.uklad_sekcja2 div{
+    flex-basis: 25%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    text-align: center;
+   
+    
+    
+}
+.tekst_sekcja2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.tekst_sekcja2 span{
+    color:blue;
+}
+h2{
+    font-size: xx-large;
+}
+.Services_sekcja2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ico{
+   width: 50px;
+    background-color:blueviolet;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+
